@@ -60,12 +60,14 @@ body{
   font-family:'League Spartan', sans-serif;
 
 }
+
 #container{
   width: 90%;
   max-width:550px;
   margin:5rem auto;
   
 }
+
 #screen{
   width:95%;
   height: 100px;
@@ -77,6 +79,7 @@ body{
   justify-content:center;
   align-items:center;
 }
+
 .heading{
   display: flex;
   justify-content: space-between;
@@ -85,11 +88,13 @@ body{
   width: 95%;
  
 }
+
 .heading div:nth-child(2){
    display:flex;
    align-items: center;
    gap:.5rem;
 }
+
 .heading ul{
   display: flex;
   gap:5px;
@@ -144,6 +149,7 @@ body{
   border-radius: 50%;
   border:none;
 }
+
 #screen div{
   width:90%;
 
@@ -155,10 +161,12 @@ body{
   text-align:right;
   
 }
+
 #flex-col{
    flex-direction: column;
    width:100px;
 }
+
 #calc-buttons{
   padding:1.2rem;
   width: 95%;
@@ -176,6 +184,7 @@ body{
     background-color:var(--key-background);
     color:var(--White-text);
    }
+
   #ans { 
         grid-area: 5 / 3 / 6 / 5;
         background-color:var(--key-background-red-1);
@@ -199,6 +208,7 @@ body{
          background-color:var(--key-background);
          color:var(--White-text);
    }
+   
   .plus { grid-area: 2 / 4 / 3 / 5; }
   .minus { grid-area: 3 / 4 / 4 / 5; }
   .btn{
